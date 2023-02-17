@@ -1,0 +1,1 @@
+export * from 'https://npm.tfl.dev/@preact/signals@1.1.3?deps=preact@10.12.1'
