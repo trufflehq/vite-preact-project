@@ -4,6 +4,7 @@ import styles from "./main-page.scss.js";
 import { useStyleSheet } from "../../deps/styles.ts";
 import Counter from "../../components/counter/counter.tsx";
 import Input from "../../components/input/input.tsx";
+import LegendTest from "../../components/legend-test/legend-test.tsx";
 
 export default function MainPage() {
   // use this to add styles
@@ -18,6 +19,7 @@ export default function MainPage() {
       <div class="styled-text">I'm some styled text</div>
       <Counter />
       <Input />
+      <LegendTest />
     </div>
   );
 }
